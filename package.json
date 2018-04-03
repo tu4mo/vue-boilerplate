@@ -1,0 +1,48 @@
+{
+  "name": "vue-boilerplate",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "private": "true",
+  "scripts": {
+    "build": "webpack --mode production",
+    "format": "prettier --write \"**/*.{js,vue}\"",
+    "lint": "eslint \"**/*.{js,vue}\"",
+    "start": "webpack-serve"
+  },
+  "author": "tu4mo",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^2.5.16",
+    "vue-router": "^3.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.44",
+    "@babel/preset-env": "^7.0.0-beta.44",
+    "@babel/preset-stage-2": "^7.0.0-beta.44",
+    "babel-eslint": "^8.2.2",
+    "babel-loader": "^8.0.0-beta.2",
+    "clean-webpack-plugin": "^0.1.19",
+    "connect-history-api-fallback": "^1.5.0",
+    "css-loader": "^0.28.11",
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.10.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "eslint-plugin-vue": "^4.4.0",
+    "html-webpack-plugin": "^3.2.0",
+    "http-proxy-middleware": "^0.18.0",
+    "koa-connect": "^2.0.1",
+    "node-sass": "^4.8.3",
+    "prettier": "^1.11.1",
+    "sass-loader": "^6.0.7",
+    "vue-loader": "^15.0.0-beta.7",
+    "vue-style-loader": "^4.1.0",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13",
+    "webpack-serve": "^0.3.1"
+  }
+}
