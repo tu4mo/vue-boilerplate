@@ -2,7 +2,7 @@ module.exports = {
   arrowParens: 'avoid',
   bracketSpacing: true,
   jsxBracketSameLine: false,
-  parser: 'babylon',
+  parser: 'vue',
   printWidth: 80,
   semi: false,
   singleQuote: true,
