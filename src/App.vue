@@ -1,26 +1,31 @@
 <template>
   <div>
-    <h1>Hello<span class="test">!</span></h1>
-    <div>
-      <router-link to="/">Home</router-link>
-      <router-link to="/page">Page</router-link>
-    </div>
-    <router-view />
+    <Header />
+    <main>
+      <router-view />
+    </main>
   </div>
 </template>
 
 <script>
+import Header from './components/Header.vue'
+
 export default {
-  name: 'App'
+  components: {
+    Header
+  }
 }
 </script>
 
 <style lang="scss">
-h1 {
-  color: red;
+* {
+  box-sizing: border-box;
+  font-family: system-ui;
+  margin: 0;
+  padding: 0;
+}
 
-  .test {
-    color: blue;
-  }
+main {
+  padding: 1rem;
 }
 </style>

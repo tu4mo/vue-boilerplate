@@ -1,9 +1,3 @@
 <template>
-  <h1>Page</h1>
+  <h2>Page</h2>
 </template>
-
-<script>
-export default {
-  name: 'Page'
-}
-</script>
