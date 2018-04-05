@@ -2,7 +2,12 @@
   <header>
     <h1>Vue Boilerplate</h1>
     <nav>
-      <router-link to="/" exact>Home</router-link>
+      <router-link
+        to="/"
+        exact
+      >
+        Home
+      </router-link>
       <router-link to="/page">Page</router-link>
     </nav>
   </header>
