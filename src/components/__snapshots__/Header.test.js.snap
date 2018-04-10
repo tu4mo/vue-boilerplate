@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should render correctly 1`] = `
+<header>
+  <h1>
+    Vue Boilerplate
+  </h1>
+   
+  <nav>
+    <!---->
+     
+    <!---->
+  </nav>
+</header>
+`;
