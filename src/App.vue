@@ -17,15 +17,4 @@ export default {
 }
 </script>
 
-<style lang="scss">
-* {
-  box-sizing: border-box;
-  font-family: system-ui;
-  margin: 0;
-  padding: 0;
-}
-
-main {
-  padding: 1rem;
-}
-</style>
+<style src="./styles/main.scss" />
